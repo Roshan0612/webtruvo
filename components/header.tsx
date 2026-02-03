@@ -5,9 +5,10 @@ import { Button } from "@/components/ui/button";
 const navLinks = [
   { href: "#services", label: "Services" },
   { href: "#process", label: "Process" },
-  { href: "#case-studies", label: "Case Studies" },
-  { href: "/schedule", label: "Schedule Call" }
+  { href: "#case-studies", label: "Case Studies" }
 ];
+
+const CAL_LINK = "https://cal.com/roshan-gawade-fiwggl/30min?overlayCalendar=true";
 
 export function Header() {
   return (
@@ -25,17 +26,17 @@ export function Header() {
         </nav>
         <div className="hidden md:block">
           <Button asChild>
-            <Link href="/schedule">
+            <a href={CAL_LINK} target="_blank" rel="noopener noreferrer">
               Book Strategy Call
-            </Link>
+            </a>
           </Button>
         </div>
       </div>
       <div className="container-default flex gap-3 pb-4 md:hidden">
         <Button asChild className="w-full">
-          <Link href="/schedule">
+          <a href={CAL_LINK} target="_blank" rel="noopener noreferrer">
             Book Strategy Call
-          </Link>
+          </a>
         </Button>
         <Button asChild variant="outline" className="w-full">
           <Link href="#services">View Services</Link>

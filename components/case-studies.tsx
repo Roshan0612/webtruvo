@@ -8,7 +8,7 @@ const studies = [
   {
     title: "Beauty & Makeup Artist",
     industry: "Beauty & Wellness",
-    image: "https://res.cloudinary.com/dswa5docr/image/upload/v1762324496/WhatsApp_Image_2025-11-05_at_12.03.50_358abeba_b4rirx.jpg",
+    image: "https://res.cloudinary.com/dswa5docr/image/upload/w_600,h_400,c_fill,q_auto,f_auto/v1762324496/WhatsApp_Image_2025-11-05_at_12.03.50_358abeba_b4rirx.jpg",
     challenge: "Need for professional online presence to showcase portfolio and attract clients.",
     solution: "Custom website with portfolio gallery, online booking system, and mobile-optimized design.",
     result: "Beautiful digital showcase with seamless client booking"
@@ -16,7 +16,7 @@ const studies = [
   {
     title: "Fitness & Gym Studio",
     industry: "Health & Fitness",
-    image: "https://res.cloudinary.com/dswa5docr/image/upload/v1762323535/WhatsApp_Image_2025-11-05_at_11.48.43_6b3fe802_lxbfdq.jpg",
+    image: "https://res.cloudinary.com/dswa5docr/image/upload/w_600,h_400,c_fill,q_auto,f_auto/v1762323535/WhatsApp_Image_2025-11-05_at_11.48.43_6b3fe802_lxbfdq.jpg",
     challenge: "Required modern website to promote services and enable class bookings.",
     solution: "Responsive fitness website with class schedules, membership plans, and contact integration.",
     result: "Professional online presence driving member sign-ups"
@@ -24,7 +24,7 @@ const studies = [
   {
     title: "Small Business Solutions",
     industry: "E-commerce",
-    image: "https://res.cloudinary.com/dswa5docr/image/upload/v1770124712/17c52075-7908-4a49-abe1-711a84f695db.png",
+    image: "https://res.cloudinary.com/dswa5docr/image/upload/w_600,h_400,c_fill,q_auto,f_auto/v1770124712/17c52075-7908-4a49-abe1-711a84f695db.png",
     challenge: "Manual processes slowing down operations and sales.",
     solution: "Automated workflows, inventory management, and payment integration.",
     result: "Streamlined operations and increased efficiency"
@@ -67,6 +67,8 @@ export function CaseStudies() {
                       fill
                       className="object-cover hover:scale-105 transition-transform duration-300"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      loading="lazy"
+                      quality={75}
                     />
                   </div>
                 )}

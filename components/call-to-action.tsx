@@ -26,16 +26,16 @@ export function CallToAction() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-            <Link href="/schedule">
-              <Button size="lg" className="w-full sm:w-auto text-base px-8">
+            <Button asChild size="lg" className="w-full sm:w-auto text-base px-8">
+              <a href="https://cal.com/roshan-gawade-fiwggl/30min?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
                 Schedule Your Strategy Call
-              </Button>
-            </Link>
-            <Link href="#services">
-              <Button variant="outline" size="lg" className="w-full sm:w-auto text-base px-8">
+              </a>
+            </Button>
+            <Button asChild variant="outline" size="lg" className="w-full sm:w-auto text-base px-8">
+              <Link href="#services">
                 Explore Our Services
-              </Button>
-            </Link>
+              </Link>
+            </Button>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12 text-left">

@@ -68,6 +68,11 @@ export default function HeroNew() {
 
             {/* CTA Buttons */}
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-3 pt-6">
+              <Button asChild size="lg">
+                <a href="https://cal.com/roshan-gawade-fiwggl/30min?overlayCalendar=true" target="_blank" rel="noopener noreferrer">
+                  Book Strategy Call
+                </a>
+              </Button>
               <Link href="#services" className="w-full sm:w-auto">
                 <Button className="w-full">Explore Services</Button>
               </Link>
