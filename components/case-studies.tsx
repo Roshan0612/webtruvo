@@ -45,7 +45,7 @@ export function CaseStudies() {
           <p className="eyebrow text-[#10b981]">Portfolio</p>
           <h2 className="section-title">Our Work</h2>
           <p className="section-subtitle">
-            Real projects we've delivered for businesses looking to establish their digital presence.
+            Real projects we&apos;ve delivered for businesses looking to establish their digital presence.
           </p>
         </motion.div>
         <div className="grid gap-6 md:grid-cols-3">
