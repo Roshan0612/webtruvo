@@ -73,14 +73,11 @@ export default function HeroNew() {
                   Book Strategy Call
                 </a>
               </Button>
-              <Link href="#services" className="w-full sm:w-auto">
-                <Button className="w-full">Explore Services</Button>
-              </Link>
-              <Link href="/schedule" className="w-full sm:w-auto">
-                <Button variant="outline" className="w-full">
-                  Book Strategy Call
-                </Button>
-              </Link>
+              <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
+                <Link href="#services">
+                  Explore Services
+                </Link>
+              </Button>
             </motion.div>
           </motion.div>
 
